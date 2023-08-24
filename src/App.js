@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Reducer from './Reducer';
+import Reducer1 from './Reducer1';
+import Reducer2 from './Reducer2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/* <Reducer></Reducer> */}
+   {/* <Reducer1></Reducer1> */}
+   <Reducer2></Reducer2>
     </div>
   );
 }
